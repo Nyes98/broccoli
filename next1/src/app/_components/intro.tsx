@@ -18,5 +18,5 @@ const IntroBox = styled.div``;
 
 const IntroBG = styled.div`
     position: relative;
-    height: 500px;
+    height: 600px;
 `;

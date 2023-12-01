@@ -86,5 +86,9 @@ const DetailBox = styled.div`
         border: 3px solid black;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
+
+        &:hover {
+            transform: scale(1);
+        }
     }
 `;

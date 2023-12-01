@@ -6,6 +6,7 @@ import Slider from 'react-slick';
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import styled from 'styled-components';
+import Image from 'next/image';
 
 export default class IntroCarousel extends Component {
     render() {
@@ -30,7 +31,8 @@ export default class IntroCarousel extends Component {
                         <p>React, NextJs, TypeScript, JavaScript, Redux, NodeJs, Express, MySQL, MongoDB, AWS EC2 </p>
                     </div>
                     <div>
-                        <h3>부족한걸 알기에 끊임없이 성장하고 발전하기 위해 노력합니다. </h3>
+                        <h3>부족한걸 알기에 끊임없이 성장하고</h3>
+                        <h3>발전하기 위해 노력합니다.</h3>
                     </div>
                 </Slider>
             </Carousel>
@@ -39,12 +41,19 @@ export default class IntroCarousel extends Component {
 }
 
 const Carousel = styled.div`
-    width: 600px;
-    background-color: white;
+    width: 1000px;
+    background: none;
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 70%;
     transform: translate(-50%, -50%);
+    border-radius: 20px;
+    color: white;
+    font-size: 1.3rem;
+
+    image {
+        border-radius: 20px;
+    }
 
     div {
         text-align: center;
@@ -54,12 +63,13 @@ const Carousel = styled.div`
         p {
             margin-top: 10px;
         }
+
         .slick-dots {
             top: 300px;
         }
         .slick-list {
             & > div > div {
-                margin-top: 110px;
+                margin-top: 100px;
             }
         }
     }

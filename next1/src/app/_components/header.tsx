@@ -4,7 +4,7 @@ import styled from 'styled-components';
 export default function Header() {
     return (
         <HeaderBox>
-            <div>Nyes's portfolio</div>
+            <h3>Nyes's portfolio</h3>
             <HeaderMenu>
                 <div>About Me</div>
                 <div>Skill</div>
@@ -21,6 +21,7 @@ const HeaderBox = styled.div`
     padding: 20px 0px;
     border-bottom: 1px solid black;
     color: white;
+    font-size: 1.2rem;
 
     div {
         display: flex;

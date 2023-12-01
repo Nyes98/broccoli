@@ -13,26 +13,25 @@ export default function AboutMe() {
             <DetailBox>
                 <div>
                     <div>
-                        <Image src="/name.svg" width={30} height={30} alt="name"></Image>
+                        <Image src="/name.svg" width={50} height={50} alt="name"></Image>
                     </div>
                     <div>박예성</div>
                 </div>
                 <div>
                     <div>
-                        <Image src="/birth.svg" width={30} height={30} alt="birth"></Image>
+                        <Image src="/birth.svg" width={50} height={50} alt="birth"></Image>
                     </div>
                     <div>98.09.24</div>
                 </div>
                 <div>
                     <div>
-                        <Image src="/phone.svg" width={30} height={30} alt="phone"></Image>
+                        <Image src="/phone.svg" width={50} height={50} alt="phone"></Image>
                     </div>
                     <div>010-5503-9839</div>
-                    <div>nyesg98@gmail.com</div>
                 </div>
                 <div>
                     <div>
-                        <Image src="/address.svg" width={30} height={30} alt="address"></Image>
+                        <Image src="/address.svg" width={50} height={50} alt="address"></Image>
                     </div>
                     <div>경기도 남양주시</div>
                 </div>
@@ -65,9 +64,10 @@ const DetailBox = styled.div`
     justify-content: space-between;
     text-align: center;
     font-weight: 700;
+    font-size: 1.2rem;
 
     div {
-        width: 150px;
+        width: 200px;
         margin: auto;
     }
 
@@ -75,9 +75,9 @@ const DetailBox = styled.div`
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100px;
-        height: 100px;
-        background-color: #f566a2;
+        width: 130px;
+        height: 130px;
+        background-color: #fca311;
         clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
         margin-bottom: 20px;
     }
